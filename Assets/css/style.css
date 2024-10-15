@@ -1,0 +1,50 @@
+.tabh {      
+   border-style: none;
+   border: none;
+  }
+
+  .tabh_bord {      
+    border-style: none;
+    border: none;
+    border-right: none;
+    border-left: none;
+   }
+
+  .tab_tr {      
+    border: 1px solid black;
+    background-color: #ddd;   
+  }
+
+.tab_td {      
+  border: 1px solid black;
+  /* border-radius: 100px; */
+  /* border-bottom: none; */
+  background-color: #9cb3c9;
+  }
+
+  .tab_td1 {      
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+  }
+
+  .tab_td3 {      
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-right: none;
+    border-left: none;
+  }
+
+
+  .haed_acc {      
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #24709a;
+    color:#FFFFFF;
+  }
+
+  table, th, td {      
+    border: 1px solid black;
+    border-collapse: collapse;
+  }

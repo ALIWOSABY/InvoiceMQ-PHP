@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: URL('../fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf') format('ttf');
+}
+body{
+    font-family: SourceSansPro;
+}
+#etu_login_tab:hover{
+    background-color: #3c8dbc;
+}
+#ens_login_tab:hover{
+    background-color: #3c8dbc;
+}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  /*background-image: url('../css/searchicon.png');*/
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  /*padding: 12px 20px 12px 40px;*/
+  border: 1px solid #ddd;
+  /*margin-bottom: 12px;*/
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#myUL li div {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  /*padding: 12px;*/
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li div:hover:not(.header) {
+  background-color: #eee;
+}
+#myUL1 li div {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  /*padding: 12px;*/
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL1 li div:hover:not(.header) {
+  background-color: #eee;
+}
+.panel{
+    margin-bottom: 3px;
+}
